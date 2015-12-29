@@ -1,0 +1,40 @@
+New log file opened at Tue Dec 29 16:26:48 GMT 2015 by 4618@mark-Study
+Taking next connection to: 39841
+New client attempting to connect on port: 43320-39841
+  Address = /127.0.1.1:39841
+This client on port 43320 has uuid 7362cdef-8b10-43cf-aa5e-de42e23676c2 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7362cdef-8b10-43cf-aa5e-de42e23676c2
+Taking next connection to: 39841
+New client attempting to connect on port: 43406-39841
+  Address = /127.0.1.1:39841
+Handshake exception on socket: 43406
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 39841
+New client attempting to connect on port: 43408-39841
+  Address = /127.0.1.1:39841
+This client on port 43408 has uuid 69fe0379-42ef-436a-b9e1-8bb3a00d300e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-7362cdef-8b10-43cf-aa5e-de42e23676c2, play-fork-run-69fe0379-42ef-436a-b9e1-8bb3a00d300e
+Taking next connection to: 39841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 39841
